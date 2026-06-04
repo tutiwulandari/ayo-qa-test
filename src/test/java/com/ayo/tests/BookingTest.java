@@ -1,7 +1,4 @@
-/**
- * DANA Indonesia
- * Copyright (c) 2018‐2026 All Rights Reserved.
- */
+
 package com.ayo.tests;
 
 import org.junit.jupiter.api.Test;
