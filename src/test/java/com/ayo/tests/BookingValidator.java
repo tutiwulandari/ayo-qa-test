@@ -1,7 +1,4 @@
-/**
- * DANA Indonesia
- * Copyright (c) 2018‐2026 All Rights Reserved.
- */
+
 package com.ayo.tests;
 
 import com.ayo.utils.DBConnection;
@@ -10,10 +7,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-/**
- * @author hibatullaha
- * @version $Id: BookingValidator.java, v 0.1 2026‐06‐05 00.00 hibatullaha Exp $$
- */
 public class BookingValidator {
     public static int getSchedulePrice(
             int venueId,
