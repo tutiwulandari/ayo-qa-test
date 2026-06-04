@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.ayo.tests.BookingPriceTest" time="0.02" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="jdk.extensions.version" value="17.0.9.0"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hibatullaha/Downloads/ayo-qa-technical-test/target/test-classes:/Users/hibatullaha/Downloads/ayo-qa-technical-test/target/classes:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter/5.13.4/junit-jupiter-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter-params/5.13.4/junit-jupiter-params-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib/default:/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/hibatullaha/Downloads/ayo-qa-technical-test/target/surefire/surefirebooter-20260604224613598_3.jar /Users/hibatullaha/Downloads/ayo-qa-technical-test/target/surefire 2026-06-04T22-46-13_037-jvmRun1 surefire-20260604224613598_1tmp surefire_0-20260604224613598_2tmp"/>
+    <property name="surefire.test.class.path" value="/Users/hibatullaha/Downloads/ayo-qa-technical-test/target/test-classes:/Users/hibatullaha/Downloads/ayo-qa-technical-test/target/classes:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter/5.13.4/junit-jupiter-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter-params/5.13.4/junit-jupiter-params-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar:/Users/hibatullaha/.m2/repository_project_personal/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hibatullaha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="openjdk.methodhandles" value="true"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/hibatullaha/Downloads/ayo-qa-technical-test"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="surefire.real.class.path" value="/Users/hibatullaha/Downloads/ayo-qa-technical-test/target/surefire/surefirebooter-20260604224613598_3.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib/default:/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="17.0.9+9&#10;JRE 17 Mac OS X aarch64-64-Bit 20231017_458 (JIT enabled, AOT enabled)&#10;OpenJ9   - 461bf3c70&#10;OMR      - 5eee6ad9d&#10;JCL      - 3699725139c based on jdk-17.0.9+9"/>
+    <property name="java.runtime.version" value="17.0.9+9"/>
+    <property name="user.name" value="hibatullaha"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.6"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="java.vendor.version" value="17.0.9.0"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="localRepository" value="/Users/hibatullaha/.m2/repository_project_personal"/>
+    <property name="java.vendor.url.bug" value="https://github.com/ibmruntimes/Semeru-Runtimes/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/kt/79t85h_x5zd45qvth9363sm4b8x790/T/"/>
+    <property name="idea.version" value="2025.2.4"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="com.ibm.system.agent.path" value="/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib"/>
+    <property name="user.dir" value="/Users/hibatullaha/Downloads/ayo-qa-technical-test"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib/default:/Users/hibatullaha/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib:/usr/lib"/>
+    <property name="java.vm.info" value="JRE 17 Mac OS X aarch64-64-Bit 20231017_458 (JIT enabled, AOT enabled)&#10;OpenJ9   - 461bf3c70&#10;OMR      - 5eee6ad9d&#10;JCL      - 3699725139c based on jdk-17.0.9+9"/>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="java.vm.version" value="openj9-0.41.0"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="java.lang.invoke.VarHandle.VAR_HANDLE_GUARDS" value="false"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="/Users/hibatullaha/.m2/repository_project_personal"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyBookingPriceMatchesSchedulePrice" classname="com.ayo.tests.BookingPriceTest" time="0.011">
+    <failure message="Booking price does not match schedule price. ==&gt; expected: &lt;1000000&gt; but was: &lt;1200000&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Booking price does not match schedule price. ==> expected: <1000000> but was: <1200000>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at com.ayo.tests.BookingPriceTest.verifyBookingPriceMatchesSchedulePrice(BookingPriceTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+  </testcase>
+</testsuite>
