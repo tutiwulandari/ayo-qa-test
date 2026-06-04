@@ -134,4 +134,4 @@ mvn test
 
 ## Author
 
-Hibatullah A.
+Tuti Wulandari
